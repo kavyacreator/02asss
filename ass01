@@ -1,0 +1,15 @@
+l=[]
+k=[]
+n=[]
+l=input().split()
+print(l)
+for i in l:
+    k.append(int(i))
+print(k)    
+for j in k:
+    if j%2!=0:
+        n.append(j)
+print(n)        
+        
+        
+        
